@@ -22,7 +22,7 @@ var recognizer = new builder_cognitiveservices.QnAMakerRecognizer({
 
 var basicQnAMakerDialog = new builder_cognitiveservices.QnAMakerDialog({
     recognizers: [recognizer],
-                defaultMessage: 'I'm sorry, I don't know the answer to your question. You can try again, or simply email support@treehacks.com!',
+                defaultMessage: 'I\'m sorry, I don\'t know the answer to your question. You can try again, or simply email support@treehacks.com!',
                 qnaThreshold: 0.3}
 );
 
